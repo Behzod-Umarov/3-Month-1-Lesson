@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {  
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 30px 100px 30px 54px;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .logo{
+    transition: all 0.5s ease-in-out;
+}
+
+.logo:hover{
+    box-shadow: 6px 15px 40px black;
+} */
+
+.menu_list{
+    display: flex;
+    list-style: none;
+    gap: 75px;
+}
+.menu_item a{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;    
+}
+
+.menu_item a:hover{
+    text-shadow: 2px 5px 4px rgb(157, 149, 235);
+    color: rgb(105, 105, 208) !important;
+}
+
+.auth{
+    display: flex;
+    gap: 40px;
+}
+
+/* Hero section */
+.hero{
+    background-image: url('../img/hero_img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover !important;
+    height: 100vh;
+}
+
+.hero_box{
+    width: 643px;
+    height: 443px;
+    background-color: rgba(255, 243, 227, 1);
+    border-radius: 10px;
+
+}
+.hero_box_info{
+    padding: 62px 43px 37px 39px;
+}
+.hero_box_info h3{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 3px;
+    color: rgba(51, 51, 51, 1);
+    margin-bottom: 4px;
+}
+.hero_box_info h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    color: rgba(184, 142, 47, 1);
+    margin-top: 17px;
+}
+.hero_box_info p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 16px;
+    margin-bottom: 46px
+}
+.hero_box_info a{
+    padding: 25px 72px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(184, 142, 47, 1);
+    text-decoration: none;
+    margin-top: 46px;
+    transition: all 0.5s ease-in-out;
+}
+.hero_box_info a:hover{
+    box-shadow: 10px 16px 90px orangered;
+}
+
+/* Catalog section */
+.catalog{
+    padding: 57px 126px 56px 131px;
+}
+
+.catalog_info{
+    width: 559px;
+    height: 77px;
+    text-align: center;
+    margin-left:349px;
+}
+.catalog_info h2{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: rgba(51, 51, 51, 1);
+}
+.catalog_img{
+    margin-top: 63px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.catalog_img_info{
+    display: flex;
+    align-items: center;
+    gap: 276px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.catalog_img_info span{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(51, 51, 51, 1);
+    
+}
